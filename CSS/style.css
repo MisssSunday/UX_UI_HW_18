@@ -1,0 +1,286 @@
+* {
+    font-family: din-2014, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    background-color: white;
+    border: 1px solid white;
+}
+.navigation {
+background-color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    margin-left: 5%;
+}
+
+.navlist {
+    width: 73%;
+    display: block;
+    flex-direction: row;
+    margin-left: 45%;
+}
+
+.navListItem {
+    display: inline-block;
+    padding: 40px 30px;
+    
+}
+
+.navigation li:hover{
+    color: #FFDF62;
+    font-style: bold;
+}
+  
+.popUp {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+
+
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+
+
+.hero {
+    flex-direction: column;
+}
+
+.aside {
+    width: 30%;
+height: 550px;
+padding: 25px;
+float: left;
+}
+
+
+
+.me {
+    width: 300px;
+    height: 305px;
+    padding: 1%; 
+    margin-left: 18%;
+    position: absolute; top: 180px;
+    left:0
+}
+
+.resume {
+    width: 188px;
+    height: 15px;
+    padding: 1%; 
+    margin-left: 27%;
+    position: absolute; top: 385px;
+    left:0
+ 
+}
+
+.main {
+    height: 550px;
+    padding: 10px;
+    float: center;
+    width: 70%;
+}
+
+.Hey {
+    padding: 1%; 
+    margin-left: 45%; 
+    margin-top: 0;
+}
+
+.about {
+
+    width: 600px;
+    padding: 1%;
+    margin-left: 45%;
+    text-align: left;
+}
+
+
+.about1 {
+    padding: 1%; 
+    margin-left: 40%; 
+    margin-top: 0;
+    text-align: left;
+    
+    
+}
+
+.about2 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.about4 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.about3 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill1 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+
+
+.skill101 {
+    padding: 1%; 
+
+    margin-top: 0;
+    text-align: left;
+    margin-left: 45%;
+}
+
+.skill102 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill103 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill104 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill2 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill201 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+.skill202 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill203 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.skill204 {
+    padding: 1%; 
+    margin-left: 45%; 
+}
+
+.logo2 {
+    padding: 1%; 
+    margin-left: 40%; 
+}
+
+.socialMedia {
+    padding: 1%; 
+    margin-left: 45%; 
+    display: block;
+}
+
+.socialMediaItems {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.socialMediaItems1 {
+    padding: 20px; 
+}
+
+.socialMediaItems2 {
+    padding: 20px; 
+}
+.socialMediaItems3 {
+    padding: 20px; 
+}
+.socialMediaItems4 {
+    padding: 20px; 
+}
+
+.copyRight {
+    padding: 10px; 
+    margin-left: 45%; 
+    margin-bottom: 50px;
+}
